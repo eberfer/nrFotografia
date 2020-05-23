@@ -1,0 +1,57 @@
+@font-face {
+    font-family:jaapokki;
+    src: url("../fonts/jaapokki-regular.woff");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: jaapokki, sans-serif;
+}
+
+body {
+    background-image: url("../images/fresh_snow.png");
+    font-size: 15px;
+    min-height: 100vh;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+
+.topNavbar{
+    background-color: lightgray;
+}
+
+
+.mainSection{
+    margin-bottom: 30px;
+    background-color: lightyellow;
+    padding: 0%;
+}
+.backgroundImg {
+    background-image: url("../images/mainPicture.jpg");
+    display: block;
+    margin: auto;
+}
+
+.description{
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.menuBtn {
+    color: black;
+    background-color: rgba(red, green, blue, 0);
+}
+
+.picture {
+    padding: 0px;
+}
